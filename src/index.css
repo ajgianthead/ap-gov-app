@@ -6,9 +6,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(0.25turn, #ccfccb, #96e6b3, #568259);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+}
+
+#root {
+  background: linear-gradient(0.25turn, #ccfccb, #96e6b3, #568259);
+}
+
+html {
+  background: linear-gradient(0.25turn, #ccfccb, #96e6b3, #568259);
 }
 
 code {
