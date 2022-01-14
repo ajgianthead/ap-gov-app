@@ -2,47 +2,71 @@ import React from "react";
 import {
   Flex,
   Link,
-  Text,
   Menu,
   MenuButton,
   MenuList,
   MenuItem,
   Button,
   HStack,
+  Heading,
 } from "@chakra-ui/react";
+import { motion } from "framer-motion";
+
+import { RiBillLine } from "react-icons/ri";
 
 export default function Navbar() {
+  // Creating animation components
+  const MotionLink = motion(Link);
+  const MotionMenuButton = motion(MenuButton);
+
   return (
     <Flex
       justifyContent={"space-between"}
       alignItems={"center"}
-      flexGrow={2}
       padding={3}
-      backgroundColor={"black"}
-      m={15}
-      borderRadius={10}
+      backgroundColor={"white"}
+      maxW={"1336px"}
     >
-      <Text color={"white"}>How a Bill Becomes a Law</Text>
+      <HStack>
+        <RiBillLine fontSize={40} />
+        <Heading color={"black"}>
+          <i>
+            <span style={{ color: "red" }}>Bill</span>
+            <span style={{ color: "black" }}>
+              {/* WebkitTextStroke: "2px black" */}
+              To
+            </span>
+            <span style={{ color: "blue" }}>Law</span>
+          </i>
+        </Heading>
+      </HStack>
 
       <HStack mr={5}>
         <Menu>
-          <MenuButton
+          <MotionMenuButton
+            whileHover={{ scale: 1.1 }}
             as={Button}
-            color={"white"}
-            bg={"black"}
+            color={"black"}
+            bg={"white"}
             _hover={{ bg: "white", color: "black" }}
             _active={{ bg: "white", color: "black" }}
             _focus={{ border: "none" }}
             mr={7}
           >
             Activities
-          </MenuButton>
+          </MotionMenuButton>
           <MenuList>
             <MenuItem>Games</MenuItem>
             <MenuItem>Quizzes</MenuItem>
           </MenuList>
         </Menu>
-        <Link color={"white"}>More Information</Link>
+        <MotionLink
+          color={"black"}
+          whileHover={{ scale: 1.1 }}
+          style={{ textDecoration: "none" }}
+        >
+          More Information
+        </MotionLink>
       </HStack>
     </Flex>
   );
