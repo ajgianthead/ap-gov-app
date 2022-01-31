@@ -51,19 +51,22 @@ export default function Navbar() {
             _hover={{ bg: "white", color: "black" }}
             _active={{ bg: "white", color: "black" }}
             _focus={{ border: "none" }}
+            isDisabled={true}
             mr={7}
           >
             Activities
           </MotionMenuButton>
           <MenuList>
-            <MenuItem>Games</MenuItem>
+            <MenuItem>Build Your Own Build</MenuItem>
             <MenuItem>Quizzes</MenuItem>
           </MenuList>
         </Menu>
+
         <MotionLink
           color={"black"}
           whileHover={{ scale: 1.1 }}
           style={{ textDecoration: "none" }}
+          isDisabled={true}
         >
           More Information
         </MotionLink>
