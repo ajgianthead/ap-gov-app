@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ap-gov-app/static/css/main.b5c3647c.css",
+    "main.js": "/ap-gov-app/static/js/main.bb64f51e.js",
+    "static/js/787.815236b3.chunk.js": "/ap-gov-app/static/js/787.815236b3.chunk.js",
+    "static/media/bill.jpg": "/ap-gov-app/static/media/bill.4b95c371293c00b3e31c.jpg",
+    "static/media/new-arrow.png": "/ap-gov-app/static/media/new-arrow.944832f8d245cc13472c.png",
+    "index.html": "/ap-gov-app/index.html",
+    "main.b5c3647c.css.map": "/ap-gov-app/static/css/main.b5c3647c.css.map",
+    "main.bb64f51e.js.map": "/ap-gov-app/static/js/main.bb64f51e.js.map",
+    "787.815236b3.chunk.js.map": "/ap-gov-app/static/js/787.815236b3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5c3647c.css",
+    "static/js/main.bb64f51e.js"
+  ]
+}
