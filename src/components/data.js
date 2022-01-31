@@ -2,19 +2,19 @@ export const infoData = [
   {
     title: "#1 A Bill is First Drafted",
     description:
-      "Any member of Congress either from the Senate or the House or Representatives who has an idea for a law can draft a. These ideas come from the Congress members themselves or from everyday citizens and advocacy groups. The primary Congress member supporting the bill is called the sponsor. The other members who support the bill are called co-sponsors.",
+      "Any member of Senate or the House who has an idea for a law can draft. These ideas come from the Congress members themselves or from everyday citizens and advocacy groups. The primary Congress member supporting the bill is called the sponsor.",
     index: 0,
   },
   {
     title: "#2 A bill is introduced",
     description:
-      "Once the bill is drafted, it must be introduced. If a Representative is the sponsor, the bill is introduced in the House. If a Senator is the sponsor, the bill is introduced in the Senate. Once a bill is introduced, it can be found on Congress.gov, which is the official government website that tracks federal legislation.",
+      "Once the bill is drafted, it must be introduced. If a Representative is the sponsor, the bill is introduced in the House. If a Senator is the sponsor, the bill is introduced in the Senate. Once it's introduced, it can be found on the congress website.",
     index: 1,
   },
   {
     title: "#3 The bill goes to committee",
     description:
-      'As soon as a bill is introduced, it is referred to a committee. Both the House and Senate have various committees composed of groups of Congress members who are particularly interested in different topics such as health or international affairs. When a bill is in the hands of the committee, it is carefully examined and its chances of passage by the entire Congress are determined. The committee may even choose to hold hearings to better understand the implications of the bill. Hearings allow the views of the executive branch, experts, other public officials and supporters, and opponents of the legislation to be put on the record. If the committee does not act on a bill, the bill is considered to be "dead".',
+      'As soon as a bill is introduced, it is referred to a committee. When a bill is in the hands of the committee, it is examined and its chances of passage by the entire Congress are determined. The committee may even choose to hold hearings to better understand the implications of the bill. Hearings allow the views of the executive branch, experts, other public officials and supporters, and opponents of the legislation to be put on the record. If the committee does not act on a bill, the bill is considered to be a dead bill.',
     index: 2,
   },
   {
@@ -26,7 +26,7 @@ export const infoData = [
   {
     title: "#5 Committee mark up of the bill",
     description:
-      'When the hearings and subcommittee review are completed, the committee will meet to "mark up" the bill. They make changes and amendments prior to recommending the bill to the "floor". If a committee votes not to report legislation to the full chamber of Congress, the bill dies. If the committee votes in favor of the bill, it is reported to the floor. This procedure is called "ordering a bill reported".',
+      'When the hearings and subcommittee review are completed, the committee will meet to "mark up" the bill. They make changes and amendments prior to recommending the bill to the floor. If a committee votes not to report legislation to the full chamber of Congress, the bill dies. If the committee votes in favor of the bill, it is reported to the floor. This procedure is called "ordering a bill reported".',
     index: 4,
   },
   {
