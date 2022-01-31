@@ -2,7 +2,7 @@ export const infoData = [
   {
     title: "#1 A Bill is First Drafted",
     description:
-      "Any member of Senate or the House who has an idea for a law can draft. These ideas come from the Congress members themselves or from everyday citizens and advocacy groups. The primary Congress member supporting the bill is called the sponsor.",
+      "Any member of Senate or the House who has an idea for a law can draft a bill. These ideas come from the Congress members themselves or from everyday citizens and advocacy groups. The primary Congress member supporting the bill is called the sponsor.",
     index: 0,
   },
   {
@@ -20,7 +20,7 @@ export const infoData = [
   {
     title: "#4 Subcommittee review of the bill",
     description:
-      "Subcommittees are organized under committees and have further specialization on a certain topic. Often, committees refer bills to a subcommittee for study and their own hearings. The subcommittee may make changes to the bill and must vote to refer a bill back to the full committee.",
+      "Subcommittees are organized under committees, like rules committees, and have further specialization on a certain topic. Often, committees refer bills to a subcommittee for study and their own hearings. The subcommittee may make changes to the bill and must vote to refer a bill back to the full committee.",
     index: 3,
   },
   {
@@ -32,7 +32,7 @@ export const infoData = [
   {
     title: "#6 Voting by the full chamber on the bill",
     description:
-      "Once the bill reaches the floor, there is additional debate and members of the full chamber vote to approve any amendments. The bill is then passed or defeated by the members voting.",
+      "Once the bill reaches the floor, there is a floor debate, which is an additional debate and members of the full chamber vote to approve any amendments. The bill is then passed or defeated by the members voting.",
     index: 5,
   },
   {
@@ -44,7 +44,7 @@ export const infoData = [
   {
     title: "#8 The bill goes to the president",
     description:
-      'After both the House and Senate have approved a bill in identical form, the bill is sent to the President. If the President approves of the legislation, it is signed and becomes law. If the President takes no action for ten days while Congress is in session, the bill automatically becomes law. If the President opposes the bill, they may veto the bill. In addition, if no action is taken for 10 days and Congress has already adjourned, there is a "pocket veto" .',
+      'After both the House and Senate have approved a bill in identical form, the bill is sent to the President. If the President approves of the legislation there will be a bill signing and the bill will become a law. If the President takes no action for ten days while Congress is in session, the bill automatically becomes law. If the President opposes the bill, they may veto the bill. In addition, if no action is taken for 10 days and Congress has already adjourned, there is a "pocket veto" .',
     index: 7,
   },
   {
